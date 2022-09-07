@@ -1,9 +1,5 @@
-let square = document.querySelector('.square');
+let box = document.querySelector('.box');
 
-function draw(a,b){
-    if(document.onclick(square)){
-        return console.log('wow');
-    } else{
-        return console.log('Not wow');
-    }
+function changeColor(color){
+    box.style.color = color
 }

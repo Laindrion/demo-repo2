@@ -18,7 +18,7 @@ body{
 .box{
     width: 100px;
     height: 100px;
-    background-color: #000;
+    background-color: #dbe7e9;
     color: #fff;
     margin-bottom: 10px;
     text-align: center;
@@ -29,4 +29,23 @@ body{
 
 .btn_box{
     display: flex;
+    justify-content: space-around;
+}
+.btn{
+    border: 1px solid #000;
+    background-color: #f09e;
+    border-radius: 3px;
+    margin-left: 4px;
+    padding: 10px 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .5s all;
+}
+.btn:hover{
+    background-color: #eef5f6;
+    color: #f09e;
+    border: 1px solid #c2d4d5;
 }
